@@ -22,7 +22,7 @@ export default function FollowUs() {
                     </div>
                 </div>
 
-                <button className="border border-[#2B7CD3] text-[#2B7CD3] px-12 py-3 text-lg font-medium hover:bg-blue-50 transition duration-300 cursor-pointer mb-10 font-sans">
+                <button suppressHydrationWarning className="border border-[#2B7CD3] text-[#2B7CD3] px-12 py-3 text-lg font-medium hover:bg-blue-50 transition duration-300 cursor-pointer mb-10 font-sans">
                     Follow Us
                 </button>
 

@@ -26,7 +26,7 @@ const trustItems = [
 export default function Trust() {
     return (
         <section className="relative py-20 bg-white overflow-hidden">
-            {/* Background Image */}
+            
             <div className="absolute inset-0 w-full h-full z-0 opacity-30">
                 <Image
                     src="/assets/IMAGE.png"

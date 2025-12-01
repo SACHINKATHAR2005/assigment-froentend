@@ -9,7 +9,8 @@ export default function Navbar() {
     >
       <div className="w-full px-6 md:px-12 flex items-center justify-between h-full">
 
-        {/* Left Logo */}
+        
+
         <div className="flex items-center flex-shrink-0">
           <div className="relative w-[140px] h-[60px]">
             <Image
@@ -22,9 +23,9 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Right Section: Menu & Cart */}
+       
         <div className="flex items-center gap-8">
-          {/* Menu */}
+   
           <ul className="hidden lg:flex items-center gap-10 text-black font-sans text-lg font-medium">
             {["Home", "Shop", "About Us", "FAQ", "Blog", "Contact Us"].map((item) => (
               <li
@@ -36,7 +37,7 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* Cart Icon */}
+         
           <div className="flex items-center justify-end flex-shrink-0">
             <div className="relative w-8 h-8">
               <Image

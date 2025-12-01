@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Features() {
     return (
         <div className="space-y-20 pb-20 pt-10 bg-white">
-            {/* Header for this section area */}
+
             <section className="text-center px-6">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-4xl md:text-5xl font-bold mb-2 text-black font-sans">Health Care Desk</h2>
@@ -16,7 +16,7 @@ export default function Features() {
                 </div>
             </section>
 
-            {/* Feature 1 - Image Left */}
+
             <section className="w-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-12">
                 <div className="md:w-1/2 flex items-center justify-center">
                     <div className="relative w-full h-[300px] md:h-[400px]">
@@ -37,13 +37,13 @@ export default function Features() {
                         Health Desk Care, we uphold the highest standards of quality, safety, and regulatory compliance, ensuring every
                         product you choose is both effective and trustworthy.
                     </p>
-                    <button className="border border-[#2B7CD3] text-[#2B7CD3] px-8 py-2 rounded-none text-sm font-medium hover:bg-blue-50 transition cursor-pointer font-sans">
+                    <button suppressHydrationWarning className="border border-[#2B7CD3] text-[#2B7CD3] px-8 py-2 rounded-none text-sm font-medium hover:bg-blue-50 transition cursor-pointer font-sans">
                         Learn More
                     </button>
                 </div>
             </section>
 
-            {/* Feature 2 - Image Right */}
+
             <section className="w-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row-reverse items-center gap-12">
                 <div className="md:w-1/2 flex items-center justify-center">
                     <div className="relative w-full h-[300px] md:h-[400px]">
@@ -62,13 +62,13 @@ export default function Features() {
                         We combine the expertise of our physicians with the latest health data and medical research, ensuring every
                         supplement is thoughtfully formulated for maximum benefit.
                     </p>
-                    <button className="border border-[#2B7CD3] text-[#2B7CD3] px-8 py-2 rounded-none text-sm font-medium hover:bg-blue-50 transition cursor-pointer font-sans">
+                    <button suppressHydrationWarning className="border border-[#2B7CD3] text-[#2B7CD3] px-8 py-2 rounded-none text-sm font-medium hover:bg-blue-50 transition cursor-pointer font-sans">
                         Learn More
                     </button>
                 </div>
             </section>
 
-            {/* Feature 3 - Image Left */}
+
             <section className="w-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-12">
                 <div className="md:w-1/2 flex items-center justify-center">
                     <div className="relative w-full h-[300px] md:h-[400px]">
@@ -89,7 +89,7 @@ export default function Features() {
                         reducing our carbon footprint, we create wellness solutions that are as good for the planet as they are for
                         you.
                     </p>
-                    <button className="border border-[#2B7CD3] text-[#2B7CD3] px-8 py-2 rounded-none text-sm font-medium hover:bg-blue-50 transition cursor-pointer font-sans">
+                    <button suppressHydrationWarning className="border border-[#2B7CD3] text-[#2B7CD3] px-8 py-2 rounded-none text-sm font-medium hover:bg-blue-50 transition cursor-pointer font-sans">
                         Learn More
                     </button>
                 </div>

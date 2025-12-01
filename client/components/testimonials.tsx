@@ -31,7 +31,7 @@ export default function Testimonials() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12">
                     {testimonials.map((t, i) => (
                         <div key={i} className="relative p-8 rounded-xl min-h-[320px] flex flex-col justify-between group bg-[#F0F9FB]">
-                            {/* Card Background Image */}
+                           
                             <div className="absolute inset-0 w-full h-full z-0 rounded-xl overflow-hidden">
                                 <Image
                                     src="/assets/IMAGE (19).png"

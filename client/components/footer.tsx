@@ -3,22 +3,22 @@ import Image from "next/image";
 export default function Footer() {
     return (
         <footer className="bg-white w-full">
-            {/* Top Section - Questions & Social */}
+
             <section className="bg-[#FAFAFA] py-16 w-full">
                 <div className="w-full px-6 md:px-12">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
-                        {/* Have a Question? */}
+
                         <div>
                             <h3 className="text-xl font-bold mb-4 text-black font-sans">Have a Question?</h3>
                             <p className="text-gray-600 mb-6 font-sans">
                                 Check out our FAQs where we answer the most commonly asked questions
                             </p>
-                            <button className="border border-[#2B7CD3] text-[#2B7CD3] px-8 py-2 text-sm font-medium hover:bg-blue-50 transition cursor-pointer font-sans">
+                            <button suppressHydrationWarning className="border border-[#2B7CD3] text-[#2B7CD3] px-8 py-2 text-sm font-medium hover:bg-blue-50 transition cursor-pointer font-sans">
                                 Read FAQs
                             </button>
                         </div>
 
-                        {/* Connect With Us */}
+
                         <div>
                             <h3 className="text-xl font-bold mb-4 text-black font-sans">Connect With Us</h3>
                             <p className="text-gray-600 mb-6 font-sans">
@@ -29,7 +29,7 @@ export default function Footer() {
                             </p>
                         </div>
 
-                        {/* We're Social */}
+
                         <div>
                             <h3 className="text-xl font-bold mb-4 text-black font-sans">We're Social</h3>
                             <p className="text-gray-600 mb-6 font-sans">
@@ -40,7 +40,7 @@ export default function Footer() {
                 </div>
             </section>
 
-            {/* Newsletter Section - Let's Grow Together */}
+
             <section className="bg-[#1D65C1] text-white py-16 w-full">
                 <div className="w-full px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-8">
                     <div className="text-center md:text-left">
@@ -49,22 +49,23 @@ export default function Footer() {
                     </div>
                     <div className="flex w-full md:w-auto max-w-lg">
                         <input
+                            suppressHydrationWarning
                             type="email"
                             placeholder="Please Enter Your Email"
                             className="w-full md:w-96 px-6 py-3 text-gray-900 focus:outline-none font-sans text-base bg-[#1656A8] placeholder-blue-300 text-white border border-blue-400"
                         />
-                        <button className="bg-white text-black px-10 py-3 font-bold hover:bg-gray-100 transition cursor-pointer whitespace-nowrap font-sans text-base">
+                        <button suppressHydrationWarning className="bg-white text-black px-10 py-3 font-bold hover:bg-gray-100 transition cursor-pointer whitespace-nowrap font-sans text-base">
                             Submit
                         </button>
                     </div>
                 </div>
             </section>
 
-            {/* Bottom Section - Links & Copyright */}
+
             <section className="py-16 bg-white w-full">
                 <div className="w-full px-6 md:px-12">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16 border-b border-gray-200 pb-16">
-                        {/* Logo & Address */}
+
                         <div className="md:col-span-1">
                             <div className="relative w-48 h-12 mb-8">
                                 <Image
@@ -81,7 +82,7 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        {/* Products */}
+
                         <div className="md:col-span-3 md:border-l md:border-gray-200 md:pl-12">
                             <h4 className="font-bold text-[#2B7CD3] mb-8 font-sans text-xl">Our Products</h4>
                             <div className="grid grid-cols-2 md:grid-cols-5 gap-y-4 gap-x-8 text-base text-gray-500 font-sans">
@@ -118,7 +119,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Disclaimer */}
+
                     <div className="text-center mb-10">
                         <p className="text-sm text-gray-400 leading-relaxed font-sans max-w-5xl mx-auto">
                             These statements have not been evaluated by the Food and Drug Administration.
@@ -126,7 +127,7 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    {/* Payment Icons */}
+
                     <div className="flex justify-center mb-10">
                         <div className="relative w-72 h-10">
                             <Image
@@ -138,7 +139,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Copyright & Links */}
+
                     <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 font-sans border-t border-gray-100 pt-10">
                         <p>© 2025, Health Desk Clinic. All Rights Reserved.</p>
                         <div className="flex gap-6 mt-4 md:mt-0 items-center">

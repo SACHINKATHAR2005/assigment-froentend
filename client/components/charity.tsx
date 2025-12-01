@@ -11,7 +11,7 @@ export default function Charity() {
 
     return (
         <section className="relative py-24 overflow-hidden">
-            {/* Background Image */}
+
             <div className="absolute inset-0 w-full h-full z-0">
                 <Image
                     src="/assets/IMAGE (9).png"

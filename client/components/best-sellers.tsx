@@ -30,7 +30,7 @@ export default function BestSellers() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
                     {products.map((product, index) => (
                         <div key={index} className="flex flex-col items-center">
-                            {/* Product Image Container */}
+
                             <div className="w-full bg-[#F9F9F9] rounded-xl mb-6 flex items-center justify-center p-4 aspect-[4/5] relative">
                                 <div className="relative w-full h-full">
                                     <Image
@@ -42,12 +42,12 @@ export default function BestSellers() {
                                 </div>
                             </div>
 
-                            {/* Product Name */}
+
                             <h3 className="font-bold mb-2 text-black text-center font-sans text-xl">
                                 {product.name}
                             </h3>
 
-                            {/* Rating Stars */}
+
                             <div className="relative w-24 h-5 mb-4">
                                 <Image
                                     src="/assets/stars.png"
@@ -57,8 +57,8 @@ export default function BestSellers() {
                                 />
                             </div>
 
-                            {/* Shop Now Button */}
-                            <button className="border border-[#2B7CD3] text-[#2B7CD3] px-8 py-2 text-base font-medium hover:bg-blue-50 transition cursor-pointer font-sans w-full max-w-[160px]">
+
+                            <button suppressHydrationWarning className="border border-[#2B7CD3] text-[#2B7CD3] px-8 py-2 text-base font-medium hover:bg-blue-50 transition cursor-pointer font-sans w-full max-w-[160px]">
                                 Shop Now
                             </button>
                         </div>
